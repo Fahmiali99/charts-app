@@ -83,7 +83,7 @@ function Home() {
     }
 
     return (
-        <div className="w-full h-screen flex flex-col justify-center items-center bg-white space-y-6 px-6">
+        <div className="w-full h-auto flex flex-col justify-center items-center bg-white space-y-6 px-6 py-20">
             <div className="mb-6 text-center">
                 <h1 className=" text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-2">
                     {data[0]?.country} Population
