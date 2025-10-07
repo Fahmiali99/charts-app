@@ -33,7 +33,7 @@ const CustomTooltip = ({ active, payload }: CustomTooltipProps) => {
     if (active && payload && payload.length) {
         const data = payload[0].payload;
         return (
-            <div className="bg-white border border-gray-200 rounded-lg shadow-lg px-4 py-3">
+            <div className="bg-white border border-gray-200 rounded-lg shadow-lg px-4 py-3 text-start">
                 <p className="mb-1 font-semibold text-gray-800">{data.country} - {data.name}</p>
                 <p className="my-1 text-sm text-gray-700">
                     <span className="font-medium">Population:</span> {data.value.toLocaleString()}
